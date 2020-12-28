@@ -1,0 +1,117 @@
+# Skript feito por Kiberzn
+# Discord: a-zn#4375
+
+spawn:
+  broadcast: '&7{display} &6entrou neste lobby!'
+  hotbar:
+    warps: 'slot>2 : item>COMPASS : named>&aWarps &7(Clique direito) : lore>&7Jogue em outras warps! : execute>warps'
+    kits: 'slot>3 : item>NETHER_STAR : named>&aKits &7(Clique direito) : lore>&7Selecione um kit! : execute>kits'
+    shop: 'slot>5 : item>EMERALD : named>&aLoja &7(Clique direito) : lore>&7Compre kits para ficar mais\n&7forte! : execute>shop'
+    money-day: 'slot>6 : item>CHEST_MINECART : named>&aMoedas Diárias &7(Clique direito) : lore>&7Colete moedas suas diárias! : execute>moneyday'
+  chat:
+    color:
+      default: '&7'
+      custom: '&f'
+    format: '&7[&a{level}&7] {prefix}{player}{color}: {message}'
+  motd:
+    enabled: true
+    header: '&a&lZN &f- &7www.redezn.com'
+    footer: '&e&nKit PvP&e aberto para todos!'
+  tablist:
+    enabled: true
+    header: '\n&a&lREDE ZN\n    &fjogar.redezn.com\n '
+    footer: ' \n&bForúm: &fredezn.com/forum\n&b               Discord: &fredezn.com/discord               \n'
+game:
+  rewards:
+    coins-per-day: 1000
+    coins-per-kill: 50
+    coins-per-death: 25
+    exp-per-kill: 10
+scoreboard:
+  update-time: 1
+  titles:
+  - '&a&lBATATA QUENTE'
+  - '&6&lB&a&lATATA QUENTE'
+  - '&f&lB&6&lA&a&lTATA QUENTE'
+  - '&f&lBA&6&lT&a&lATA QUENTE'
+  - '&f&lBAT&6&lA&a&lTA QUENTE'
+  - '&f&lBATA&6&lT&a&lA QUENTE'
+  - '&f&lBATAT&6&lA &a&lQUENTE'
+  - '&f&lBATATA &6&lQ&a&lUENTE'
+  - '&f&lBATATA Q&6&lU&a&lENTE'
+  - '&f&lBATATA QU&6&lE&a&lNTE'
+  - '&f&lBATATA QUE&6&lN&a&lTE'
+  - '&f&lBATATA QUEN&6&lT&a&lE'
+  - '&f&lBATATA QUENT&6&lE'
+  - '&f&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&f&lBATATA QUENTE'
+  - '&f&lBATATA QUENTE'
+  - '&f&lBATATA QUENTE'
+  - '&f&lBATATA QUENTE'
+  - '&f&lBATATA QUENTE'
+  - '&f&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&f&lBATATA QUENTE'
+  - '&f&lBATATA QUENTE'
+  - '&f&lBATATA QUENTE'
+  - '&f&lBATATA QUENTE'
+  - '&f&lBATATA QUENTE'
+  - '&f&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  - '&a&lBATATA QUENTE'
+  lines:
+    lobby:
+    - ''
+    - ' Vítorias: &a{wins}'
+    - ' Derrotas: &a{losts}'
+    - ''
+    - ' Nível: &a{level}'
+    - ' Moedas: &6{coins}'
+    - ''
+    - ' &ewww.redezn.com'
+    waiting:
+    - ''
+    - ' Vítorias: &a{wins}'
+    - ' Derrotas: &a{losts}'
+    - ''
+    - ' Nível: &a{level}'
+    - ' Moedas: &6{coins}'
+    - ''
+    - ' &ewww.redezn.com'
